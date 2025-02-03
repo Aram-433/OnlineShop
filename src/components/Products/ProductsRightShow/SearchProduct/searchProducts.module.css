@@ -1,0 +1,32 @@
+.allProducts {
+  display: flex;
+}
+
+.allProducts .forLeft {
+  width: 27%;
+}
+.allProducts .right {
+  width: 73%;
+  margin-top: 90px;
+}
+.allProducts .right form input {
+  padding: 10px;
+  font-style: italic;
+  border: 1px solid #fdc830;
+  border-radius: 6px;
+}
+
+.allProducts .right form {
+  margin-left: 6px;
+}
+
+.allProducts .right form button {
+  margin-left: 10px;
+  background-color: #fdc830;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+  border-radius: 6px;
+  padding: 10px;
+}

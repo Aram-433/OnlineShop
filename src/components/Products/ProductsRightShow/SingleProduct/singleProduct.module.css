@@ -1,0 +1,28 @@
+.singleProduct {
+  border: 1px solid #fdc830;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 300px;
+  height: 400px;
+  padding: 6px;
+  margin: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(221, 157, 7, 0.3) 0px 3px 7px -3px;
+}
+
+.singleProduct .image {
+  width: 120px;
+}
+
+.singleProduct .order {
+  border: none;
+  padding: 6px 12px;
+  color: white;
+  background-color: #fdc830;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+}

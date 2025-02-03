@@ -1,0 +1,28 @@
+aside {
+  width: 25%;
+  border: 1px solid #f37335;
+  position: fixed;
+  margin-top: 67px;
+}
+
+aside ul li {
+  border-bottom: 1px solid #f37335;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 3px;
+  font-weight: 500;
+}
+
+aside ul {
+  margin: 0;
+  padding: 0;
+  left: 0;
+}
+
+aside h2 {
+  font-family: monospace;
+  font-style: italic;
+  font-size: 24px;
+  color: #f37335;
+  margin-bottom: 0;
+}
